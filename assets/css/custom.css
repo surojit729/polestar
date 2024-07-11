@@ -359,15 +359,16 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .btn-secondary {
-	background-color: rgba(214, 219, 224, 0.09);
-	border-color: #d6dbe0;
-	color: #fff;
+	background-color: #fff;
+	border-color: #fff;
+	color: #262216;
 }
 
 .btn.btn-secondary:hover,
 .btn.btn-secondary:focus,
 .btn.btn-secondary:active,
-.btn.btn-secondary:active:focus {
+.btn.btn-secondary:active:focus,
+.btn.btn-secondary:focus-visible {
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
 	color: var(--color-white);
@@ -2674,7 +2675,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .sidebarWidget .contact-form-outer,
 .locationMenu {
-	padding: 0 25px;
+	padding: 0 25px 25px;
 }
 
 .sidebarWidget .input-field .form-control {

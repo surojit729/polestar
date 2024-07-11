@@ -604,4 +604,27 @@
 	.banner-form-holder .form-title p {
 		color: #323232;
 	}
+	.locationContentHolder .postTitle h2 {
+		font-size: 28px;
+	}
+	.locationDetailsContentOuter h3 {
+		font-size: 25px;
+	}
+	.locationDetailsContentOuter li {
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	.locationDetailsContentOuter .bgContent {
+		padding: 15px;
+		border-radius: 10px;
+	}
+	.locationDetailsContentOuter img,
+	.featuredPic img {
+		border-radius: 10px;
+	}
+	.featuredPic {
+		height: 320px;
+		min-height: 320px;
+		margin: 25px 0;
+	}
 }
