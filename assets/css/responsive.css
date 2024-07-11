@@ -440,7 +440,8 @@
 	}
 
 	body.home .banner-wrapper .banner-video {
-		min-height: 730px;
+		min-height: auto;
+		height: 500px;
 	}
 	.section-padding {
 		padding: 40px 0;
@@ -482,7 +483,8 @@
 		width: 160px;
 	}
 	.headerLeftBtn .btn {
-		font-size: 14px;
+		font-size: 12px;
+		padding: 7px 6px;
 	}
 	.headerLeftBtn {
 		margin-right: 10px;
@@ -588,5 +590,18 @@
 	}
 	.footer-wrapper::before {
 		display: none;
+	}
+	.outdoorServicesCard {
+		height: 250px;
+		min-height: 250px;
+	}
+	.outdoorServicesCard figure {
+		height: 100%;
+	}
+	.banner-form-holder {
+		margin: 50px 0 0;
+	}
+	.banner-form-holder .form-title p {
+		color: #323232;
 	}
 }
