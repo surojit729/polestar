@@ -15,14 +15,32 @@
 	.hdr_menu li {
 		margin-right: 15px;
 	}
-	.ourProjectWrapper {
-		overflow-x: hidden;
+
+	.header-cta-btn {
+		display: none;
 	}
-	.aduRegulationWrapper .row,
-	.floorPlansWrapper .row,
-	.ourPhilosophyWrapper .row {
-		margin-left: calc(-0.5 * var(--bs-gutter-x));
-		margin-right: calc(-0.5 * var(--bs-gutter-x));
+	.logo {
+		width: 210px;
+		display: block;
+		position: relative;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		transform: none;
+	}
+	.hdr_menu ul li:nth-child(3) {
+		padding-left: 0;
+	}
+	.hdr_menu ul li:nth-child(2) {
+		margin-right: 15px;
+		padding-right: 0;
+	}
+	.header-right-content .menu-toggle-btn {
+		width: 47px;
+		height: 47px;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: static;
+		transform: none;
 	}
 }
 
@@ -297,9 +315,6 @@
 		transform: none;
 	}
 
-	.header-cta-btn {
-		display: none;
-	}
 	.header-right-content .menu-toggle-btn span {
 		border-top: 2px solid #fff;
 	}
