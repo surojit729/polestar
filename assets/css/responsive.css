@@ -387,6 +387,13 @@
 	.outdoorServicesWrapper [class*="col-"]:last-child {
 		margin-top: -246px;
 	}
+	.serviceStandardWrapper .whyUsContent {
+		padding-left: 0;
+	}
+	.serviceSpecilaizationWrapper .our-designs-content-outer {
+		max-width: 100%;
+		margin: 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -641,5 +648,11 @@
 		height: 320px;
 		min-height: 320px;
 		margin: 25px 0;
+	}
+	.serviceBanner {
+		padding: 140px 0 80px;
+	}
+	.post-holder a {
+		font-size: 21px;
 	}
 }
