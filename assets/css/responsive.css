@@ -394,6 +394,14 @@
 		max-width: 100%;
 		margin: 0;
 	}
+	.commitmentPic img {
+		width: 100%;
+	}
+	.offcCanvasActive .logo img {
+		-webkit-filter: brightness(0);
+		filter: brightness(0);
+		transition: 0.5s ease-in;
+	}
 }
 
 @media (max-width: 767px) {
@@ -654,5 +662,32 @@
 	}
 	.post-holder a {
 		font-size: 21px;
+	}
+	.coreValuesList {
+		margin-top: 0;
+	}
+	.coreValuesList .item::before {
+		font-size: 12px;
+		width: 22px;
+		height: 22px;
+	}
+	.coreValuesList .item {
+		margin-bottom: 20px;
+		padding-left: 35px;
+	}
+	.coreValuesList .item h3 {
+		font-size: 22px;
+		margin-bottom: 5px;
+	}
+	.input-field .form-control {
+		height: 50px;
+	}
+	.input-field .select-field .bootstrap-select > .dropdown-toggle {
+		height: 50px;
+		line-height: 48px;
+	}
+	.schedule-contact-form-wrapper .contact-form-outer .submit-field .btn {
+		height: 50px;
+		font-size: 16px;
 	}
 }
